@@ -233,7 +233,7 @@ function ncstatehosteddrupal_profile_tasks(&$task, $url) {
 }
 
 function get_theme_name() {
-  return 'ncstate_official';
+  return 'garland';
 }
 
 /**
