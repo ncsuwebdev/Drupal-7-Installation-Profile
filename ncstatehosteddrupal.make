@@ -59,9 +59,6 @@ projects[feeds][version] = 2.0-alpha8
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
 
-projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.10
-
 projects[fivestar][subdir] = contrib
 projects[fivestar][version] = 2.0-alpha2
 
@@ -117,7 +114,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta7
 
 projects[nodeaccess][subdir] = contrib
-projects[nodeaccess][version] = 1.3
+projects[nodeaccess][version] = 1.x-dev
 
 projects[nodereference_url][subdir] = contrib
 projects[nodereference_url][version] = 1.12
