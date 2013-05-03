@@ -198,10 +198,11 @@ libraries[simplepie][download][url] = "http://drupal.ncsu.edu/resources/librarie
 ; NC STATE MODULES & THEMES
 ; ************************
 
-;projects[ncstate_official][subdir] = ncstate
-;projects[ncstate_official][download][type] = git
-;projects[ncstate_official][download][branch] = master
-;projects[ncstate_official][download][url] = "git://github.com/ncsuwebdev/Drupal7-Theme-NC-State-Official.git"
+projects[ncstate_official][subdir] = ncstate
+projects[ncstate_official][type] = theme
+projects[ncstate_official][download][type] = git
+projects[ncstate_official][download][branch] = master
+projects[ncstate_official][download][url] = "git://github.com/ncsuwebdev/Drupal7-Theme-NC-State-Official.git"
 
 projects[wraplogin][subdir] = ncstate
 projects[wraplogin][version] = 1.2
