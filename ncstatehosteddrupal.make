@@ -1,14 +1,10 @@
-api = 2
-core = 7.x
-projects[drupal][version] = 7.22
-
 ; ************************
 ; CORE
 ; ************************
 
 core = 7.x
 api = 2
-projects[drupal][version] = 7.22
+projects[drupal][version] = 7.21
 
 ; ************************
 ; CONTRIB MODULES
