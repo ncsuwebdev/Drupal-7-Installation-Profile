@@ -1,8 +1,13 @@
+; NC State University Hosted Drupal Service Install Profile
 name = NC State University Hosted Drupal
 description = Drupal 7 Install Profile for NC State University Hosted Drupal Websites
-core = 7.x
+core = "7.x"
+project = "ncstatehosteddrupal"
+version = "7.x-1.0rc1"
 
-;;;;;;;;; CORE MODULES TO ENABLE BY DEFAULT ;;;;;;;;;
+; ****************************************************************
+; CORE MODULES TO ENABLE BY DEFAULT
+; ****************************************************************
 
 dependencies[] = block
 dependencies[] = contact
@@ -33,3 +38,78 @@ dependencies[] = toolbar
 dependencies[] = tracker
 dependencies[] = trigger
 dependencies[] = user
+
+; ****************************************************************
+; CONTRIB MODULES TO ENABLE BY DEFAULT
+; ****************************************************************
+
+dependencies[] = advanced_help
+dependencies[] = auto_nodetitle
+dependencies[] = block_access
+dependencies[] = calendar
+dependencies[] = cck
+dependencies[] = content_access
+dependencies[] = css_injector
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = demo
+dependencies[] = disable_messages
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = field_group
+dependencies[] = fivestar
+dependencies[] = gcal_events
+dependencies[] = globalredirect
+dependencies[] = google_analytics
+dependencies[] = imagecache_profiles
+dependencies[] = imce_mkdir
+dependencies[] = imce_wysiwyg
+dependencies[] = imce
+dependencies[] = jquery_update
+dependencies[] = js_injector
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = linkit
+dependencies[] = linkit_picker
+dependencies[] = masquerade
+dependencies[] = menu_block
+dependencies[] = menu_breadcrumb
+dependencies[] = metatag
+dependencies[] = nodeaccess
+dependencies[] = nodereference_url
+dependencies[] = pathauto
+dependencies[] = phone
+dependencies[] = readonlymode
+dependencies[] = recaptcha
+dependencies[] = references
+dependencies[] = role_delegation
+dependencies[] = scheduler
+dependencies[] = shadowbox
+dependencies[] = strongarm
+dependencies[] = system_perm
+dependencies[] = token
+dependencies[] = views_accordion
+dependencies[] = views_php
+dependencies[] = views_data_export
+dependencies[] = views_datasource
+dependencies[] = views_slideshow
+dependencies[] = views
+dependencies[] = votingapi
+dependencies[] = webform_validation
+dependencies[] = webform
+dependencies[] = wysiwyg
+
+; ****************************************************************
+; NC STATE MODULES & THEMES TO ENABLE BY DEFAULT
+; ****************************************************************
+
+dependencies[] = ncstate_official
+dependencies[] = wraplogin
+dependencies[] = ncstatebrandingbar
+dependencies[] = ncsuphplibrary
+dependencies[] = ncsuroles
+
+; System Requirements.
+php_memory_limit = 128M
