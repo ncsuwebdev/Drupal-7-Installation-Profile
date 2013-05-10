@@ -101,10 +101,9 @@ dependencies[] = webform
 dependencies[] = wysiwyg
 
 ; ****************************************************************
-; NC STATE MODULES & THEMES TO ENABLE BY DEFAULT
+; NC STATE MODULES TO ENABLE BY DEFAULT
 ; ****************************************************************
 
-dependencies[] = ncstate_official
 dependencies[] = wraplogin
 dependencies[] = ncstatebrandingbar
 dependencies[] = ncsuphplibrary
