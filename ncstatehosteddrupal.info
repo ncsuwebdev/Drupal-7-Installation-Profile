@@ -109,5 +109,8 @@ dependencies[] = ncstatebrandingbar
 dependencies[] = ncsuphplibrary
 dependencies[] = ncsuroles
 
+files[] = ncstatehosteddrupal.install
+files[] = ncstatehosteddrupal.profile
+
 ; System Requirements.
 php_memory_limit = 128M
