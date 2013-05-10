@@ -3,7 +3,7 @@ name = NC State University Hosted Drupal
 description = Drupal 7 Install Profile for NC State University Hosted Drupal Websites
 core = "7.x"
 project = "ncstatehosteddrupal"
-version = "7.x-1.0rc1"
+version = "7.x-1.0dev"
 
 ; ****************************************************************
 ; CORE MODULES TO ENABLE BY DEFAULT
