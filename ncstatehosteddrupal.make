@@ -112,6 +112,12 @@ projects[menu_breadcrumb][version] = 1.3
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta7
 
+projects[migrate][subdir] = contrib
+projects[migrate][version] = 2.5
+
+projects[migrate_d2d][subdir] = contrib
+projects[migrate_d2d][version] = 2.0
+
 projects[nodeaccess][subdir] = contrib
 projects[nodeaccess][version] = 1.x-dev
 
