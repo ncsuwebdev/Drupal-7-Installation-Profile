@@ -222,7 +222,7 @@ projects[ncsuphplibrary][version] = 1.0-2
 projects[ncsuphplibrary][location] = http://drupal.ncsu.edu/features/fserver
 
 projects[ncsuroles][subdir] = ncstate
-projects[ncsuroles][version] = 1.2
+projects[ncsuroles][version] = 1.3
 projects[ncsuroles][location] = http://drupal.ncsu.edu/features/fserver
 
 ; ************************
